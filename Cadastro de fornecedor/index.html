@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de fornecedor</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+  <!--imagem da logo do deposito-->
+    <div>
+        <img src="./assets/img/Deposito_do_bill-removebg-preview.png" id="img">
+    </div>
+    
+    
+    <section>
+          <form>
+            <p>Cadastro de Fornecedor</p>
+            <br>
+            <br>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome"  placeholder="Digite o nome do fornecedor">
+          
+            <label for="cnpj">CNPJ:</label>
+            <input type="text" id="cnpj"  placeholder="Digite o CNPJ do fornecedor">
+    
+            <label for="end">Endereço:</label>
+            <input type="text" id="end"  placeholder="EX: Rua, nº">
+    
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" maxlength="8" placeholder="Digite o CEP">
+    
+            <label for="uf">UF:</label>
+            <input type="text" id="uf"  placeholder="Ex: PE">
+    
+            <label for="city">Cidade:</label>
+            <input type="text" id="city"  placeholder="Ex: Recife">
+    
+            <label for="bairro">Bairro:</label>
+            <input type="text" id="bairro"  placeholder="Ex: Espinheiro">
+
+            <label for="tel">Telefone</label>
+            <input type="tel" id="tel" maxlength="11" placeholder="Digite o número para contato do fornecedor">
+
+          </form>
+            <li><a href="../Menu ADM/index.html"><button type="submit" onclick="cadastro()">Cadastrar</button></a></li>
+          
+    </section>
+    <br>
+    <footer class="text-center text-white" id="rodape">
+           
+        <div>
+          <a  href="https://www.instagram.com/felipe.p.ramos/" target="_blank">Felipe Pinho
+            <img src="./assets/img/instagram.png" id="in">
+            </a>
+        </div>
+        <div>
+          
+          <a  href="https://www.instagram.com/luan_thiag04/" target="_blank">Luan Thiago
+            <img src="./assets/img/instagram.png" id="in">
+          </a>
+        </div>
+    
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

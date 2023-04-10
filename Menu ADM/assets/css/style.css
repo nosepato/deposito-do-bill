@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background: linear-gradient(to top, #050404, #8d560f, #b46e12, #e28c0a);
+  height: 100vh;
+  width: 100%;
+}
+
+#img{
+  max-width: 300px;
+  max-height: 300px;
+  display: block; /* torna a imagem um elemento de bloco */
+  margin: auto; /* centraliza horizontalmente */
+  position: absolute; /* torna a imagem um elemento posicionado */
+  top: 0; bottom: 100;left: 0; right: 0; /* centraliza verticalmente */
+}
+/*estilização da lista de botões*/
+.botao-lista {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  list-style: none;
+  gap: 20px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*estilização dos botões*/
+button{
+  padding: 1.3em 3em;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  align-items: center;
+}
+
+button:hover{
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 0px 15px 20px rgba(44, 44, 44, 0.4);
+  transform: translateY(-7px);
+}
+
+
+#btn1{
+  margin-top: 25px;
+  margin-left: 25px;
+}
+/*estilização do rodapé*/
+#rodape{
+  background-color: transparent;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+#rodape  div{
+  margin-bottom: 10px;
+}
+
+#rodape  a{
+  text-decoration: none;
+  color: white;
+}
+
+#in{
+  max-width: 15px;
+  max-height: 15px;
+} 
